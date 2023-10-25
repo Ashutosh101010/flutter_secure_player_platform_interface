@@ -64,8 +64,8 @@ abstract class VideoPlayerPlatform extends PlatformInterface {
   }
 
   /// set secret key for decrypting video
-  Future<void> krishnapal(String secretKey){
-    throw UnimplementedError('krishnapal() has not been implemented.');
+  Future<void> setSecretKey(String secretKey) {
+    throw UnimplementedError('setSecretKey() has not been implemented.');
   }
 
   /// Starts the video playback.
